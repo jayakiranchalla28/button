@@ -13,6 +13,8 @@
 		CB1C84B51EE6DC5300837850 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1C84B31EE6DC5300837850 /* Main.storyboard */; };
 		CB1C84B71EE6DC5300837850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1C84B61EE6DC5300837850 /* Assets.xcassets */; };
 		CB1C84BA1EE6DC5300837850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1C84B81EE6DC5300837850 /* LaunchScreen.storyboard */; };
+		CB1C84C31EE6DDEA00837850 /* AAAA.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C84C21EE6DDEA00837850 /* AAAA.m */; };
+		CB1C84C61EE6E2A300837850 /* sss.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1C84C51EE6E2A300837850 /* sss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CB1C84B61EE6DC5300837850 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1C84B91EE6DC5300837850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB1C84BB1EE6DC5300837850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1C84C11EE6DDEA00837850 /* AAAA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAA.h; sourceTree = "<group>"; };
+		CB1C84C21EE6DDEA00837850 /* AAAA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAAA.m; sourceTree = "<group>"; };
+		CB1C84C41EE6E2A300837850 /* sss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sss.h; sourceTree = "<group>"; };
+		CB1C84C51EE6E2A300837850 /* sss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +67,11 @@
 				CB1C84AD1EE6DC5200837850 /* AppDelegate.h */,
 				CB1C84AE1EE6DC5200837850 /* AppDelegate.m */,
 				CB1C84B01EE6DC5200837850 /* ViewController.h */,
+				CB1C84C11EE6DDEA00837850 /* AAAA.h */,
+				CB1C84C21EE6DDEA00837850 /* AAAA.m */,
 				CB1C84B11EE6DC5200837850 /* ViewController.m */,
+				CB1C84C41EE6E2A300837850 /* sss.h */,
+				CB1C84C51EE6E2A300837850 /* sss.m */,
 				CB1C84B31EE6DC5300837850 /* Main.storyboard */,
 				CB1C84B61EE6DC5300837850 /* Assets.xcassets */,
 				CB1C84B81EE6DC5300837850 /* LaunchScreen.storyboard */,
@@ -110,7 +120,7 @@
 				TargetAttributes = {
 					CB1C84A61EE6DC5200837850 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -151,7 +161,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB1C84B21EE6DC5200837850 /* ViewController.m in Sources */,
+				CB1C84C31EE6DDEA00837850 /* AAAA.m in Sources */,
 				CB1C84AF1EE6DC5200837850 /* AppDelegate.m in Sources */,
+				CB1C84C61EE6E2A300837850 /* sss.m in Sources */,
 				CB1C84AC1EE6DC5200837850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comwifin.nne;
@@ -281,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = nne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = comwifin.nne;
